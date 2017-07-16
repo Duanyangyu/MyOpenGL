@@ -58,6 +58,9 @@ public class Rectangle {
         this.mContentBitmap = mContentBitmap;
         triangle1.setContentBitmap(mContentBitmap);
         triangle2.setContentBitmap(mContentBitmap);
+
+        //test for upload to Git.
+
     }
 
 }
