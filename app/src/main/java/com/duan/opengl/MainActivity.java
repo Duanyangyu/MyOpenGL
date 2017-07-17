@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.duan.opengl.cube.CubeActivity;
 import com.duan.opengl.triangle.TriangleActivity;
 
 import butterknife.ButterKnife;
@@ -23,6 +24,12 @@ public class MainActivity extends Activity {
     @OnClick(R.id.btnOpenGLTriangle)
     public void btnOpenGLTriangle(View view){
         Intent intent = new Intent(this, TriangleActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.btnOpenGLCube)
+    public void btnOpenGLCube(View view){
+        Intent intent = new Intent(this, CubeActivity.class);
         startActivity(intent);
     }
 
